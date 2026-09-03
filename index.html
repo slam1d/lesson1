@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adventure — Путешествия и приключения</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Специально оставляем блокирующий JS для измерения "до" -->
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container navigation">
+        <div class="logo">ADVENTURE</div>
+
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#destinations">Направления</a>
+            <a href="#about">О нас</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="subtitle">ОТКРОЙ МИР</p>
+
+        <h1>
+            Путешествия,<br>
+            которые запоминаются
+        </h1>
+
+        <p class="description">
+            Исследуйте удивительные места, открывайте новые культуры
+            и создавайте воспоминания, которые останутся с вами навсегда.
+        </p>
+
+        <a href="#destinations" class="button">
+            Смотреть направления
+        </a>
+    </div>
+</section>
+
+
+<section class="destinations" id="destinations">
+
+    <div class="container">
+
+        <div class="section-title">
+            <p class="subtitle">ПОПУЛЯРНЫЕ МЕСТА</p>
+            <h2>Выберите своё приключение</h2>
+        </div>
+
+        <div class="cards">
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+                    alt="Париж">
+                <div class="card-content">
+                    <span>ФРАНЦИЯ</span>
+                    <h3>Париж</h3>
+                    <p>
+                        Город искусства, архитектуры, культуры
+                        и романтических прогулок.
+                    </p>
+                    <a href="#">Подробнее →</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+                    alt="Италия">
+                <div class="card-content">
+                    <span>ИТАЛИЯ</span>
+                    <h3>Чинкве-Терре</h3>
+                    <p>
+                        Цветные деревушки на скалистом побережье
+                        Средиземного моря.
+                    </p>
+                    <a href="#">Подробнее →</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1530789253388-582c481c54b0"
+                    alt="Горы">
+                <div class="card-content">
+                    <span>ШВЕЙЦАРИЯ</span>
+                    <h3>Альпы</h3>
+                    <p>
+                        Горные вершины, чистейшие озёра
+                        и невероятные природные пейзажи.
+                    </p>
+                    <a href="#">Подробнее →</a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+
+    <div class="container about-grid">
+
+        <div>
+            <p class="subtitle">ПОЧЕМУ МЫ</p>
+
+            <h2>
+                Путешествуйте<br>
+                без ограничений
+            </h2>
+        </div>
+
+        <div class="about-text">
+            <p>
+                Мы помогаем людям находить новые места и получать
+                максимум впечатлений от путешествий.
+            </p>
+
+            <p>
+                От коротких поездок на выходные до экспедиций
+                в самые отдалённые уголки планеты.
+            </p>
+
+            <div class="statistics">
+                <div>
+                    <strong>120+</strong>
+                    <span>направлений</span>
+                </div>
+
+                <div>
+                    <strong>15K</strong>
+                    <span>путешественников</span>
+                </div>
+
+                <div>
+                    <strong>98%</strong>
+                    <span>довольных клиентов</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <div class="container contact-box">
+
+        <div>
+            <p class="subtitle">ГОТОВЫ?</p>
+
+            <h2>
+                Ваше следующее<br>
+                приключение начинается здесь
+            </h2>
+        </div>
+
+        <button onclick="showMessage()">
+            Начать путешествие
+        </button>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+    <div class="container footer-content">
+        <div class="logo">ADVENTURE</div>
+        <p>© 2026 Adventure. Все права защищены.</p>
+    </div>
+</footer>
+
+</body>
+</html>
